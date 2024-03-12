@@ -46,17 +46,20 @@
     align-items: center;
     justify-content: center;
     margin-top: 2.504rem;
+    z-index: 1;
 }
 
 .footer-logo-icon
 {
     margin-right: 1.252rem;
     height: 3.13rem;
+    cursor: pointer;
 }
 
 .footer-logo-name
 {
     font-size: 1.0016rem;
+    cursor: pointer;
 }
 
 /* footer-name */
@@ -65,5 +68,4 @@
     width: 107.51rem;
     margin-top: -21.91rem;
     z-index: 0;
-    /* aspect-ratio: 1/1; */
 }

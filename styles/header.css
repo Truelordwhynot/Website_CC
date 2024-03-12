@@ -39,6 +39,7 @@
     align-items: center;
     font-size: 1.0016rem;
     margin-left: 0.313rem;
+    cursor: pointer;
 }
 
 /* middle-section */
@@ -110,7 +111,7 @@
     transition: opacity 0.15s;
     opacity: 0;
     pointer-events: none;
-    bottom: -20.313rem;
+    bottom: -1.565rem;
     font-size: 0.626rem;
     white-space: nowrap;
     padding: 0 1.878rem 0 0;

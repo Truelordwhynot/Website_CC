@@ -4,6 +4,15 @@ body
     color: white;
     background-color: rgba(0, 0, 0, 0.979);
 }
+
+.link,
+.link:link,
+.link:active,
+.link:hover,
+.link:visited
+{
+    all: unset;
+}
 /* 250px=15.65rem */
 /* 1px=0.0626rem */
 
