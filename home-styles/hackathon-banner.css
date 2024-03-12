@@ -1,0 +1,164 @@
+/* main-banner */
+.hackathon-banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12.52rem 0 0 0;
+    z-index: 1;
+}
+
+/* banner-first-section */
+.hackathon-banner-first-section
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6.26rem;
+}
+
+/* banner-background */
+.hackathon-banner-background
+{
+    display: flex;
+    flex: 1fr;
+    padding-right: 6.26rem;
+}
+
+.hackathon-banner-background img
+{
+    height: 31.8634rem;
+}
+
+/* banner-info */
+.hackathon-banner-info
+{
+    display: flex;
+    flex-direction: column;
+    width: 25.04rem;
+    padding-left: 6.26rem;
+    height: 25.6034rem;
+}
+
+/* banner-info-brand */
+.hackathon-banner-info-brand
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1.878rem;
+}
+
+.hackathon-banner-info-brand img
+{
+    height: 3.5056rem;
+    padding-right: 0.939rem;
+}
+
+.hackathon-banner-info-brand div
+{
+    font-size: 1.1268rem;
+    font-weight: 500;
+    line-height: 2.5;
+}
+
+/* banner-info-name */
+.hackathon-banner-info-title
+{
+    flex: 1fr;
+    font-size: 3.5056rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-bottom: 1.878rem;
+}
+
+.hackathon-banner-info-line1
+{
+    font-size: 3.756rem;
+    color: rgb(242, 188, 0);
+}
+
+/* banner-info-content */
+.hackathon-banner-info-content
+{
+    font-size: 0.7512rem;
+    flex: 1fr;
+    line-height: 2.5;
+    padding-bottom: 3.13rem;
+}
+
+.hackathon-banner-info-line2
+{
+    font-size: 0.8764rem;
+    color: rgb(242, 188, 0);
+}
+
+/* banner-info-buttons */
+.hackathon-banner-info-button
+{
+    flex: 1fr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hackathon-banner-info-button-register
+{
+    font-size: 0.8764rem;
+    cursor: pointer;
+    margin-right: 2.504rem;
+    border: none;
+    border-radius: 0.1878rem;
+    padding: 0.8764rem 1.878rem 0.8764rem 1.878rem;
+    background-color: rgb(242, 188, 0);
+}
+
+.hackathon-banner-info-brand-knowmore
+{
+    font-size: 0.8764rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* hackathon-banner-ad */
+.hackathon-banner-ad
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5.634rem;
+}
+
+.hackathon-banner-amity img
+{
+    height: 3.756rem;
+    padding-right: 2.504rem;
+}
+
+.hackathon-banner-ad-x
+{
+    font-size: 1.252rem;
+}
+
+/* hackathon-banner-ad-brand */
+.hackathon-banner-ad-brand
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 2.504rem;
+}
+
+.hackathon-banner-ad-brand img
+{
+    height: 4.382rem;
+}
+
+.hackathon-banner-ad-brand div
+{
+    font-size: 1.252rem;
+}

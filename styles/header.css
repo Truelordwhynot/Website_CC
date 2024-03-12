@@ -1,0 +1,130 @@
+.header
+{
+    display: flex;
+    flex-direction: row;
+    height: 5.008rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    /* background-image: linear-gradient(black,#231E0F); */
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/* left-section */
+.left-section
+{
+    display: flex;
+    padding-left:2.504rem ;
+    flex: 1fr;
+}
+
+.logo-icon
+{
+    display: flex;
+    flex: 1fr;
+    height: 3.5056rem;
+    cursor: pointer;
+}
+
+.logo-name
+{
+    flex: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0016rem;
+    margin-left: 0.313rem;
+}
+
+/* middle-section */
+.middle-section
+{
+    flex: 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-section div
+{
+    cursor: pointer;
+    padding: 0 1.252rem 0 1.252rem;
+    font-size: 1.0016rem;
+    border: 0.00626rem solid black;
+}
+
+.home-txt:hover,
+.events-txt:hover,
+.about-us-txt:hover,
+.contact-txt:hover
+{
+    border: 0.00626rem solid rgb(242, 188, 0);
+    border-bottom: none;
+    border-top: none;
+    padding: 0 1.252rem 0 1.252rem;
+    transition: border 0.15s;
+
+}
+
+/* right-section */
+.right-section
+{
+    display: flex;
+    flex: 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-icon-img
+{
+    cursor: pointer;
+    height: 1.878rem;
+    padding: 0 1.878rem 0 0;
+}
+
+.hamburger-menu-img
+{
+    cursor: pointer;
+    height: 1.878rem;
+    padding: 0 2.504rem 0 0;
+}
+
+.user-icon-container,
+.hamburger-menu-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.user-icon-container div,
+.hamburger-menu-container div
+{
+    position: absolute;
+    transition: opacity 0.15s;
+    opacity: 0;
+    pointer-events: none;
+    bottom: -20.313rem;
+    font-size: 0.626rem;
+    white-space: nowrap;
+    padding: 0 1.878rem 0 0;
+
+}
+
+.hamburger-menu-container div
+{
+    padding: 0 2.504rem 0 0;
+
+}
+
+.user-icon-container:hover div,
+.hamburger-menu-container:hover div
+{
+    opacity: 1;
+}

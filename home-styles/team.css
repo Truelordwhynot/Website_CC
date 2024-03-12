@@ -1,0 +1,87 @@
+.team
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.573rem;
+}
+
+/* team-title */
+.team-title
+{
+    font-size: 2.0032rem;
+    font-weight: 550;
+    line-height: 1.5;
+    flex: 1fr;
+}
+
+/* team-block */
+.team-block
+{
+    padding: 6.26rem 0 0 0;
+}
+
+/* team-info */
+.team-member1,
+.team-member2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex: 1fr;
+}
+
+/* team-member-info */
+.team-member-info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 31.3rem;
+    margin-top: -11.878rem;
+}
+
+/* team-member-info-name */
+.team-member-info-name
+{
+    font-size: 2.0032rem;
+    font-weight: 550;
+    line-height: 1.5;
+    flex: 1fr;
+    padding: 0 0 1.878rem 0;
+
+}
+
+/* team-member-info-details */
+.team-member-info-details
+{
+    font-size: 0.8764rem;
+    line-height: 1.5;
+    font-weight: 300;
+    width: 31.3rem;
+}
+
+/* team-member-pic */
+.team-member-pic1 img,
+.team-member-pic2 img
+{
+    height: 25.6034rem;
+}
+
+.team-member-pic1
+{
+    padding-left: 5.634rem;
+}
+
+.team-member-pic2
+{
+    padding-right: 5.634rem;
+}
+
+.team-member2
+{
+    padding-top: 12.52rem;
+}
