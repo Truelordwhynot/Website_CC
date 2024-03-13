@@ -12,6 +12,7 @@ body
 .link:visited
 {
     all: unset;
+    text-decoration: none;
 }
 /* 250px=15.65rem */
 /* 1px=0.0626rem */

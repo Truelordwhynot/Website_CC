@@ -1,0 +1,43 @@
+.event-extra
+{
+    display: flex;
+    flex: 1fr;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* event-extra-x */
+.event-extra-x,
+.event-extra-y
+{
+    display: flex;
+    align-items: center;
+    flex: 1fr;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.event-extra-x
+{
+    padding-right: 54px;
+}
+
+.event-extra-y
+{
+    padding-left: 54px;
+}
+
+/* event-extra-img */
+.event-extra-img
+{
+    margin: 0 0 130px 0;
+}
+
+/* event-extra-title */
+.event-extra-title
+{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+}
